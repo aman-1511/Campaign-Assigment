@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install",
+  "framework": "create-react-app",
+  "env": {
+    "REACT_APP_API_URL": "http://18.206.140.165:5001/api",
+    "NEXT_PUBLIC_API_URL": "http://18.206.140.165:5001/api"
+  }
+} 
