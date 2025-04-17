@@ -5,7 +5,7 @@ import { Campaign, CampaignFormData, LinkedInProfile, PersonalizedMessage, Lead 
 // const LINKEDIN_PASSWORD = 'Chaudhary@1212';
 
 // Use environment variable or fallback
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001/api'; // Use port 5001 and add /api
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://18.206.140.165:5001/api'; // Use port 5001 and add /api
 
 const api = axios.create({
   baseURL: API_BASE_URL, // Use the corrected base URL
