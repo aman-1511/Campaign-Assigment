@@ -1,0 +1,25 @@
+# Node modules
+Frontend/node_modules/
+Backend/node_modules/
+
+# Environment files
+Backend/.env
+
+# Build artifacts
+
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS files
+.DS_Store
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

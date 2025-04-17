@@ -1,0 +1,31 @@
+.campaign-form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.campaign-form-container h1 {
+  margin-bottom: 20px;
+}
+
+.campaign-form {
+  padding: 25px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.campaign-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+@media (max-width: 768px) {
+  .campaign-form-container {
+    padding: 20px;
+  }
+} 
